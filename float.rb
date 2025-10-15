@@ -1,17 +1,17 @@
-puts "Création d'un float"
-puts 45.45
-puts Float(45)
-puts Float("45")
-puts Float("45.45")
+# Création d'un float
+45.45
+Float(45)
+Float("45")
+Float("45.45")
 
-puts "\nPrécision max/min"
-puts Float::MIN
-puts Float::MAX
+# Précision max/min
+Float::MIN
+Float::MAX
 
-puts "\nUtilisation des arrondis"
-puts 42.42.ceil
-puts 42.42.ceil(1)
-puts 42.42.floor
-puts 42.42.floor(1)
-puts 42.42.round
-puts 42.42.round(1)
+# Utilisation des arrondis
+42.42.ceil
+42.42.ceil(1)
+42.42.floor
+42.42.floor(1)
+42.42.round
+42.42.round(1)
